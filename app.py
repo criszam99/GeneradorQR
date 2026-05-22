@@ -9,11 +9,8 @@ st.set_page_config(
     layout="centered"
 )
 
-st.title("📱 Generador de Código QR diseñado por Cristina Zamorano 🍀")
+st.title("📱Generador de Código QR diseñado por Cristina Zamorano🍀")
 st.write("Para crear códigos QR muy fácilmente.")
-
-st.divider()
-
 datos = st.text_area(
     "📥 Ingresá AQUÍ el enlace que querés convertir en QR 👇🏼👇🏼👇🏼",
     placeholder="Ejemplo: https://escuelaelnacional.com.ar/"
