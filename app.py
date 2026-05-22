@@ -9,18 +9,18 @@ st.set_page_config(
     layout="centered"
 )
 
-st.title("📱 Generador de Código QR")
-st.write("Herramienta simple para crear códigos QR desde textos o enlaces.")
+st.title("📱 Generador de Código QR diseñado por Cristina")
+st.write("Para crear códigos QR muy fácilmente.")
 
 st.divider()
 
 datos = st.text_area(
-    "📥 Ingresá el texto o enlace que querés convertir en QR:",
+    "📥 Ingresá AQUÍ el enlace que querés convertir en QR:",
     placeholder="Ejemplo: https://escuelaelnacional.com.ar/"
 )
 
 nombre_archivo = st.text_input(
-    "📝 Nombre del archivo:",
+    "📝 Dale un nombre a tu nuevo QR",
     placeholder="Ejemplo: qr_escuela"
 )
 
