@@ -90,7 +90,7 @@ if st.button("Generar QR"):
         )
 
 st.markdown(
-    """
+
     <h2 style='text-align: center; color: #2E8B57;'>
     🌞✨ ¡Que tengas un hermoso día! 😊📚
     </h2>
