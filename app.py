@@ -91,11 +91,12 @@ if st.button("Generar QR"):
 
 st.markdown(
 
-    <h2 style='text-align: center; color: #2E8B57;'>
- """
+    st.markdown("""
+<h2 style='text-align: center; color: #2E8B57;'>
 🌞✨ ¡Que tengas un hermoso día! 😊📚
-"""
-    </h2>
+</h2>
 
-    unsafe_allow_html=True
-)
+<h4 style='text-align: center; color: gray;'>
+Gracias por usar el generador de QR 💚
+</h4>
+""", unsafe_allow_html=True)
