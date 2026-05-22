@@ -9,7 +9,7 @@ st.set_page_config(
     layout="centered"
 )
 
-st.title("📱 Generador de Código QR diseñado por Cristina Zamorano")
+st.title("📱 Generador de Código QR diseñado por Cristina Zamorano 🍀")
 st.write("Para crear códigos QR muy fácilmente.")
 
 st.divider()
@@ -91,10 +91,6 @@ if st.button("Generar QR"):
             file_name=f"{nombre_limpio}.png",
             mime="image/png"
         )
-
-st.divider()
-
-st.divider()
 
 st.markdown(
     """
