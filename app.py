@@ -15,12 +15,12 @@ st.write("Para crear códigos QR muy fácilmente.")
 st.divider()
 
 datos = st.text_area(
-    "📥 Ingresá AQUÍ el enlace que querés convertir en QR:",
+    "📥 Ingresá AQUÍ el enlace que querés convertir en QR 👇🏼👇🏼👇🏼",
     placeholder="Ejemplo: https://escuelaelnacional.com.ar/"
 )
 
 nombre_archivo = st.text_input(
-    "📝 Dale un nombre a tu nuevo QR",
+    "📝 Dale un nombre a tu nuevo QR 👇🏼👇🏼👇🏼",
     placeholder="Ejemplo: qr_escuela"
 )
 
@@ -94,4 +94,17 @@ if st.button("Generar QR"):
 
 st.divider()
 
-st.caption("Desarrollado para uso escolar.")
+st.divider()
+
+st.markdown(
+    """
+    <h1 style='text-align: center; color: #2E8B57;'>
+    🌞✨ ¡Que tengas un hermoso día! 😊📚
+    </h1>
+
+    <h3 style='text-align: center; color: gray;'>
+    Gracias por usar el generador de QR 💚
+    </h3>
+    """,
+    unsafe_allow_html=True
+)
